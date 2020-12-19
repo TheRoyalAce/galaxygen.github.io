@@ -1,61 +1,52 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
+---
+description: The leading Minehut support website.
+name: ""
+---
 
-<body class="header-page">
+import Hint from "../src/Hint"
 
-  <div class="wrapper">
-    <div class="unite-header">
-      <div class="nav-wrap">
-        <div class="container">
-          <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
-          <div class="logo">{logo}</div>
-          <div class="nav desktop-nav">{menu}</div>
-          <div class="nav membership-cart">{membership}{minicart}</div>
-        </div>
-      </div>
-    </div>
+# Home
 
-    <div class="banner-wrap">
-      {{#header}}
-          <div class="container">
-            <div class="banner">{content}</div>
-          </div>
-      {{/header}}
-    </div>
+## Welcome... to minehut.xyz
 
-    <div class="main-wrap">
-      {{#sections}}
-          <div class="container">{content}</div>
-      {{/sections}}
-    </div>
+Minehut.xyz is home to the best Minehut-related support you'll find on the web. We aim to provide top quality [Minehut tutorials](/faq/panel), [Plugin tutorials](/plugins/popular), and [Skript tutorials](/skript/basics). Our site is [community driven](/contribute), and we will continue to make it better and better.
 
-    <div class="footer-wrap">
-        <div class="footer">{footer}</div>
-    </div>
-  </div>
+<Hint severity="info">
+Utilise our Search function at the top righthand corner of the site, it's so helpful to find your question within our site.
+</Hint>
 
-  <div class="nav mobile-nav">
-    <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
-    {menu}
-  </div>
+## Every question ever, answered.
 
-  <script>
-    (function(d) {
-      var config = {
-        kitId: 'nxe1ajf',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script>
+**We know Minehut**. We've integrated out knowledge into a **Popular Questions** section, which directed towards questions that are frequently asked. For example ["How do I allow 1.8 clients to join?"](/faq/other-questions/server-version), and ["How do I give my players a permission"](/faq/ingame/permissions). [\[Submit a post\]](/contribute)
 
-	<script type="text/javascript" src="/files/theme/plugins.js"></script>
-  <script type="text/javascript" src="/files/theme/custom.js"></script>
-</body>
+## Our plugin know-how
 
-</html>
+Our team consists of avid server creators, meaning we know all about the plugins players use most. Our helpful **Plugin Tutorials** section gives users top-notch and informative knowledge on the most used and best plugins out there. [\[Submit a post\]](/contribute)
+
+## Developers
+
+Minehut's Skripting community has continued to grow throughout the years, so we've adapted our website to help the developers as much as we can. We've teamed up with some of the best Skript developers out there to write the best tutorials and examples we can. \[Submit a post\]\]\(contribute.md\)
+
+## The team
+
+| Name          | Position                                         |
+| :------------ | :----------------------------------------------- |
+| Adam          | Founder                     |
+| ---           | ---                                              |
+| Tarna         | Founder, Partnership Manager               |
+| Goose         | GitHub Manager                        |
+| Lukas         | General Manager, Project Manager |
+| ---           | ---                                              |
+| Kiko          | Site Developer                                 |
+| ---           | ---                                              |
+| Conutik       | Writer                                           |
+| Houlton       | Writer                                           |
+| Smelly Burger | Writer                                           |
+| Rqdioqctive   | Writer                                           |
+| Citeful       | Writer                                           |
+
+## About us
+
+Minehut.xyz was founded on _**August 4th, 2020**_ by two members of the Minehut Community, **Tarna** _\(Helper @ Minehut\)_ & **Minehut** _\(Adam, Former Senior Support @ Minehut\)_.
+
+We realised there was no dedicated place for Minehut tutorials where the community can easily upload their own tutorials, so we made one!
